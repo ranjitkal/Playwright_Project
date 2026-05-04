@@ -39,12 +39,6 @@ test.describe('@smoke Browser Factory Example', () => {
  await page.waitForTimeout(2000);
 await page.locator('//button[@type="submit"]').click({button:'left' , delay:3000});
  
-await page.waitForTimeout(2000);
-await page.locator('//*[@class="oxd-userdropdown-tab"]').click({button:'left' , delay:3000});
-await page.waitForTimeout(4000);
-await page.locator('//*[text()="Logout"]').click({button:'left' , delay:6000});
-
-
 
 
   });
